@@ -5,13 +5,24 @@
   align-items: center;
   flex-direction: column;
 
-  margin-top: -20rem;
+  margin-top: -10rem;
 }
 
 .grid-galery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+
+  grid-template-columns: repeat(1, 1fr);
   gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .grid-galery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid-galery img {
+    width: 10rem;
+    height: 10rem;
+  }
 }
 
 .grid-galery img {

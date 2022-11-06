@@ -2,13 +2,13 @@
   width: 100%;
 
   text-align: center;
-  flex-direction: column;
-  justify-content: center;
+
   background-color: white;
   padding: 0.5rem;
   background-image: url("/img/pitufoIntel-removebg-preview.png");
   background-repeat: no-repeat;
   background-position: left center;
+  background-size: 50%;
 }
 
 .subtitle {
@@ -22,13 +22,12 @@
 
 .services {
   margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
 }
 
 .card_service {
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
   margin: 0 auto;
   height: auto;
   border: 1px solid rgb(243, 237, 243);
@@ -42,6 +41,16 @@
   border-right-color: rgba(255, 255, 255, 0.1);
   border-bottom-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .card_service {
+    width: 60%;
+    flex-direction: row;
+  }
+  .servicios {
+    background-size: contain;
+  }
 }
 
 .card_service h3 {

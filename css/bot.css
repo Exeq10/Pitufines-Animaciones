@@ -5,18 +5,22 @@
   bottom: 0;
   display: flex;
   justify-content: center;
-  margin-top: 10rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
   font-family: "Luckiest Guy", cursive;
   color: rgb(56, 56, 56);
 }
 
+h1 {
+  font-size: 2rem;
+}
 .dialog {
-  width: 60%;
+  width: 100%;
   min-width: 5rem;
   max-width: 60rem;
   height: auto;
 
-  min-height: 10rem;
+  min-height: 5rem;
   max-height: 20rem;
   font-size: 2rem;
   padding: 0.4rem;
@@ -26,6 +30,18 @@
   justify-content: center;
   align-items: center;
   box-shadow: 2px;
+}
+@media (min-width: 768px) {
+  .dialog {
+    width: 60%;
+    min-height: 10rem;
+    max-height: 20rem;
+    font-size: 2rem;
+    padding: 0.4rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
 }
 
 span {
@@ -38,6 +54,13 @@ span {
 .pitufo {
   filter: drop-shadow(10px 20px 15px rgb(209, 207, 207));
   z-index: 10;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .pitufo {
+    width: 30%;
+  }
 }
 
 .btn {
