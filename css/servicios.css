@@ -43,6 +43,10 @@
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
 }
 
+.center {
+  order: -1;
+}
+
 @media (min-width: 768px) {
   .card_service {
     width: 60%;
@@ -50,6 +54,9 @@
   }
   .servicios {
     background-size: contain;
+  }
+  .center {
+    order: 0;
   }
 }
 
