@@ -1,0 +1,58 @@
+.modal {
+  width: 20%;
+  height: 20rem;
+  border-radius: 2rem;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  font-family: "Luckiest Guy", cursive;
+
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #38a3d7;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='800' preserveAspectRatio='none' viewBox='0 0 1440 800'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1987%26quot%3b)' fill='none'%3e%3ccircle r='67.82' cx='903.63' cy='520.57' fill='rgba(56%2c 163%2c 215%2c 1)'%3e%3c/circle%3e%3ccircle r='70.32' cx='85.66' cy='742.37' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='27.755' cx='112.58' cy='120.89' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='26.645' cx='20.45' cy='445.96' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='27.265' cx='1341.99' cy='447.85' fill='rgba(56%2c 163%2c 215%2c 1)'%3e%3c/circle%3e%3ccircle r='63.8' cx='708.7' cy='605.57' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='77.825' cx='1198.08' cy='93.31' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='62.05' cx='1350.69' cy='690.66' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='24.805' cx='1236.14' cy='363.93' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='29.025' cx='1229.16' cy='692.42' fill='rgba(56%2c 163%2c 215%2c 1)'%3e%3c/circle%3e%3ccircle r='41.86' cx='987.63' cy='773.42' fill='rgba(56%2c 163%2c 215%2c 1)'%3e%3c/circle%3e%3ccircle r='73.035' cx='1353.4' cy='779.5' fill='rgba(56%2c 163%2c 215%2c 1)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1987'%3e%3crect width='1440' height='800' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+  z-index: 100;
+  background-position: center;
+  background-size: contain;
+}
+
+.modal div {
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  gap: 2rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.modal div input[type="text"] {
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  padding: 0.3rem;
+  outline-color: #38a3d7;
+  text-align: center;
+}
+
+.md {
+  background-color: white;
+  color: #38a3d7;
+  padding: 0.2rem;
+  margin-top: 3rem;
+  width: 20%;
+}
+
+.md:hover {
+  background-color: #ffb806;
+  color: white;
+  width: 40%;
+}
+
+.d-none {
+  display: none;
+}

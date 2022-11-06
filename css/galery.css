@@ -1,0 +1,24 @@
+.galery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: -20rem;
+}
+
+.grid-galery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.grid-galery img {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 1rem;
+  filter: brightness(120%) sepia(3%);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}

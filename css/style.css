@@ -1,0 +1,239 @@
+/* resets */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: "Signika Negative", sans-serif;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='800' preserveAspectRatio='none' viewBox='0 0 1440 800'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1987%26quot%3b)' fill='none'%3e%3ccircle r='67.82' cx='903.63' cy='520.57' fill='rgba(56%2c 163%2c 215%2c 1)'%3e%3c/circle%3e%3ccircle r='70.32' cx='85.66' cy='742.37' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='27.755' cx='112.58' cy='120.89' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='26.645' cx='20.45' cy='445.96' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='27.265' cx='1341.99' cy='447.85' fill='rgba(56%2c 163%2c 215%2c 1)'%3e%3c/circle%3e%3ccircle r='63.8' cx='708.7' cy='605.57' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='77.825' cx='1198.08' cy='93.31' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='62.05' cx='1350.69' cy='690.66' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='24.805' cx='1236.14' cy='363.93' fill='rgba(255%2c 204%2c 1%2c 1)'%3e%3c/circle%3e%3ccircle r='29.025' cx='1229.16' cy='692.42' fill='rgba(56%2c 163%2c 215%2c 1)'%3e%3c/circle%3e%3ccircle r='41.86' cx='987.63' cy='773.42' fill='rgba(56%2c 163%2c 215%2c 1)'%3e%3c/circle%3e%3ccircle r='73.035' cx='1353.4' cy='779.5' fill='rgba(56%2c 163%2c 215%2c 1)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1987'%3e%3crect width='1440' height='800' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+
+  background-attachment: fixed;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* elements */
+.body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem;
+}
+
+.header div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header div img {
+  display: block;
+  width: 30rem;
+}
+
+/* navegacion */
+
+.navegacion {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  background-color: #38a3d7;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+
+  -webkit-box-shadow: 2px 3px 9px 0px rgba(128, 123, 128, 1);
+  -moz-box-shadow: 2px 3px 9px 0px rgba(128, 123, 128, 1);
+  box-shadow: 2px 3px 9px 0px rgba(128, 123, 128, 1);
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  width: 100%;
+  justify-content: space-around;
+}
+
+li {
+  font-size: 1.9rem;
+  padding: 0.6rem;
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  transition: all 300ms;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li a {
+  color: white;
+}
+
+li img {
+  max-width: 15rem;
+  height: 0rem;
+  position: absolute;
+  top: 13rem;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0.1;
+
+  transition: all 300ms;
+}
+
+li:hover {
+  color: #38a3d7;
+  background-color: white;
+  cursor: pointer;
+}
+
+li:hover a {
+  color: #38a3d7;
+}
+li:hover img {
+  display: block;
+  height: 9rem;
+  visibility: visible;
+  opacity: 1;
+}
+
+#wave-top {
+  margin-top: -200rem;
+  margin-bottom: 0;
+  color: #38a3d7;
+}
+
+/* contacto  */
+
+.contact {
+  position: absolute;
+  width: 100%;
+  font-size: 8rem;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10rem;
+}
+
+h1 {
+  font-family: "Luckiest Guy", cursive;
+}
+
+.bienvenido {
+  font-size: 4.5rem;
+}
+
+.center {
+  text-align: center;
+}
+
+/* barra superior  */
+
+.nav-stick {
+  width: 100%;
+  background-color: #38a3d7;
+  padding: 0.3rem;
+}
+
+.red-stick {
+  font-size: 1.8rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  color: white;
+}
+
+.red-stick i {
+  color: white;
+}
+
+.top {
+  display: flex;
+  justify-content: end;
+  padding-right: 3rem;
+  position: sticky;
+  top: 60%;
+}
+
+.top img {
+  width: 8rem;
+  transition: 300ms all;
+}
+
+.top img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  min-height: 25rem;
+
+  background-image: url("/img/waveFooter.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 0.8rem;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+  width: 20%;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 1.6rem;
+}
+
+.redes div {
+  display: flex;
+  gap: 1rem;
+  color: white;
+}
+
+.redes div i {
+  color: #ffcc01;
+  font-size: 2.6rem;
+}
+
+.author {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  color: white;
+}

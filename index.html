@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description"
+        content="Animamos fiestas y eventos, generadores de risas, encuentros, sorpresas y desafíos 💙 ">
+    <meta name="keywords" content="Fiestas,Cumpleaños,niños,infantil,animación,servicios,pelotero,cama elastica">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/d8b774d43a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="shortcut icon" href="/img/titulo-removebg-preview.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bot.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/servicios.css" />
+    <link rel="stylesheet" href="css/galery.css" />
+    <link rel="stylesheet" href="css/about.css" />
+
+    <title>Pitufines Animaciones</title>
+</head>
+
+<body>
+
+    <section class="nav-stick">
+        <div class="red-stick">
+            <p>Contáctenos </p>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/pitufinesanimacion/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:pitufinesanimaciones@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+
+            <p><i class="fa-solid fa-phone"></i> +598 91 317 031</p>
+
+        </div>
+    </section>
+
+    <!-- header y hero  -->
+    <header class="header">
+        <div><img src="/img/titulo-removebg-preview.png" alt="" /></div>
+    </header>
+
+    <nav class="navegacion">
+        <ul>
+            <li>
+                <img src="/img/pitufina-removebg-previewMedio.png" alt=""
+                    class="wow animate_animated animate__backInDown animate__infinite" />
+                <a href="/">Inicio</a>
+            </li>
+            <li>
+                <img src=" /img/pitufoIntel-removebg-previewMedio.png  " alt=""
+                    class="wow animate_animated animate__backInDown animate__infinite" /><a
+                    href="#servicios">Servicios</a>
+            </li>
+            <li>
+                <img src="/img/pitufo_simpatico-removebg-previewMedio.png" alt=""
+                    class="wow animate_animated animate__backInDown animate__infinite" /><a href="#galery">Galeria</a>
+            </li>
+            <li>
+                <img src="/img/papapitufoMedio.png" alt=""
+                    class="wow animate_animated animate__backInDown animate__infinite" /><a href="#about">Nosotros</a>
+            </li>
+            <li>
+                <img src="/img/pitufoFortachon-removebg-previewMedio.png" alt=""
+                    class="wow animate_animated animate__backInDown animate__infinite" /><a href="#contact">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="modal d-none animate__animated animate__fadeInUp" id="modal">
+        <div>
+            <label for="nombre"> Nombre pitufo</label>
+
+            <input type="text" id="nombre" />
+        </div>
+
+        <button class="btn md" onclick="welcomeUser()">
+            <i class="fa-sharp fa-solid fa-check"></i>
+        </button>
+    </div>
+
+    <div class="bot">
+        <div class="dialog animate__animated animate__fadeInRight">
+            <p id="text-dialog"></p>
+        </div>
+        <img class="pitufo wow animate__animated animate__backInUp" src="/img/pitufina-removebg-preview.png"
+            alt="pitufo" />
+    </div>
+
+
+    <!-- fin header y hero  -->
+
+    <!-- wave  -->
+    <svg id="wave-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#38a3d7" fill-opacity="1"
+            d="M0,0L60,0C120,0,240,0,360,32C480,64,600,128,720,181.3C840,235,960,277,1080,266.7C1200,256,1320,192,1380,160L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+        </path>
+    </svg>
+    <!-- fin wave  -->
+
+    <section class="top" id="point">
+        <a href="https://walink.co/b11e7e" class=" animate__animated animate__heartBeat animate__infinite "><img
+                src="/img/wpp.png" alt="wpp"></a>
+
+    </section>
+
+    <!-- seccion de servicios  -->
+
+    <a id="servicios"></a>
+    <section class="servicios">
+        <h2 class="subtitle">Nuestros <span>servicios</span> </h2>
+
+        <div class="services ">
+            <!-- card -->
+            <div class="card_service wow animate__animated animate__fadeInLeft">
+
+                <ul class="list_services">
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Maquillaje</li>
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Globoflexia</li>
+                </ul>
+                <div class="center">
+                    <h3>Básico</h3>
+
+                    <p class="duration">1 Hora</p>
+                </div>
+
+                <ul class="list_services">
+
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Opcional Burbujas</li>
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Servicios Opcionales</li>
+
+                </ul>
+            </div>
+            <!-- fin card -->
+            <!-- card -->
+            <div class="card_service wow animate__animated animate__fadeInRight">
+
+                <ul class="list_services">
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Maquillaje</li>
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Globoflexia</li>
+                </ul>
+                <div class="center">
+                    <h3>Intermedio</h3>
+
+                    <p class="duration">2 Horas</p>
+                </div>
+
+                <ul class="list_services">
+
+                    <li> <i class="fa-sharp fa-solid fa-check"> </i> Opcional Burbujas</li>
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Juegos acordes a edad</li>
+
+                </ul>
+            </div>
+
+            <!-- card -->
+            <div class="card_service wow animate__animated animate__fadeInLeft">
+
+                <ul class="list_services">
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Maquillaje</li>
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Globoflexia</li>
+                </ul>
+                <div class="center">
+                    <h3>Completo</h3>
+
+                    <p class="duration">3 Horas</p>
+                </div>
+
+                <ul class="list_services">
+
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Opcional Burbujas</li>
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Juegos acordes a edad</li>
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Actividades didácticas</li>
+
+                </ul>
+            </div>
+
+            <!--fin card -->
+
+
+
+
+            <!-- card -->
+            <div class="card_service wow animate__animated animate__fadeInRight">
+                <ul class="list_services">
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Servicio de Mozo</li>
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> castillos inflables</li>
+                </ul>
+                <div>
+                    <h3>Extras</h3>
+                </div>
+
+
+
+                <ul class="list_services">
+
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Pelotero</li>
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> cama elástica</li>
+                    <li> <i class="fa-sharp fa-solid fa-check"></i> Algodón de azúcar</li>
+                </ul>
+            </div>
+            <!-- fin card -->
+        </div>
+
+
+    </section>
+    <!-- fin seccion de servicios  -->
+
+
+
+    <!-- wave -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#38a3d7" fill-opacity="1"
+            d="M0,288L48,288C96,288,192,288,288,256C384,224,480,160,576,117.3C672,75,768,53,864,69.3C960,85,1056,139,1152,138.7C1248,139,1344,85,1392,58.7L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+
+    <!-- fin wave -->
+
+    <!-- galeria -->
+    <a id="galery"></a>
+    <section class="galery">
+        <h2 class="subtitle center n-m"> Nuestros <span>Momentos</span> <i id="camera"
+                class="fa-sharp fa-solid fa-camera"></i></h2>
+
+
+
+        <div class="grid-galery">
+
+            <img class="wow animate__animated animate__fadeInDown animate__delay-1s"
+                src="/fotos/WhatsApp Image 2022-08-20 at 4.51.09 PM (1).jpeg" alt="fotos">
+            <img class="wow animate__animated animate__fadeInDown animate__delay-2s"
+                src="/fotos/WhatsApp Image 2022-08-20 at 4.55.09 PM (1).jpeg" alt="fotos">
+            <img class="wow animate__animated animate__fadeInDown animate__delay-2s"
+                src="/fotos/WhatsApp Image 2022-09-23 at 1.23.30 PM.jpeg" alt="fotos">
+            <img class="wow animate__animated animate__fadeInDown animate__delay-1s"
+                src="/fotos/WhatsApp Image 2022-08-20 at 4.55.10 PM.jpeg" alt="fotos">
+            <img class="wow animate__animated animate__fadeInDown animate__delay-2s"
+                src="/fotos/WhatsApp Image 2022-08-20 at 4.55.12 PM (1).jpeg" alt="fotos">
+            <img class="wow animate__animated animate__fadeInDown animate__delay-1s"
+                src="/fotos/WhatsApp Image 2022-08-20 at 4.55.12 PM.jpeg" alt="fotos">
+            <img class="wow animate__animated animate__fadeInDown animate__delay-1s"
+                src="/fotos/WhatsApp Image 2022-08-20 at 4.55.13 PM.jpeg" alt="fotos">
+            <img class="wow animate__animated animate__fadeInDown animate__delay-2s"
+                src="/fotos/WhatsApp Image 2022-09-23 at 1.23.27 PM.jpeg" alt="fotos">
+        </div>
+
+
+    </section>
+
+    <!-- fin galeria  -->
+
+
+
+    <!-- informacion -->
+    <a id="about"></a>
+    <section class="about">
+
+
+        <h2 class="subtitle center n-m"> Sobre <span>nosotros</span>
+        </h2>
+
+        <div class="flex-about center">
+
+            <div class="about-info wow animate__animated animate__bounceInLeft">
+                <h3>¿ Quienes somos ?</h3>
+
+                <p>Animamos fiestas y eventos, generadores de risas, encuentros, sorpresas y desafíos 💙</p><br>
+
+                <p>Somos una empresa que se dedica a la organización de <span>eventos y fiestas infantiles.</span> </p>
+                <br>
+                <p>Hacemos que los más peques se diviertan y pasen momentos increibles, <span>mediante juegos
+                        recreativos </span>.</p><br>
+                <p>Realizamos juegos didácticos , educativos , individuales y grupales .</p>
+
+
+                <a href="https://walink.co/b11e7e"><button class="btn">Más Info </button></a>
+            </div>
+
+            <div class="wow animate__animated animate__fadeIn">
+                <img src="/img/papa pitufo.png" alt="papa-pitufo">
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- fin informacion  -->
+
+
+    <!-- footer -->
+
+    <a id="contact"></a>
+    <footer class="footer">
+
+        <img src="/img/titulo-removebg-preview.png" alt="titulo">
+        <div class="author">
+
+            <p>Web creada por Exequiel Schiavo
+            </p>
+        </div>
+
+
+
+        <div class="redes-footer">
+
+            <div class="redes">
+
+                <div><a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <p>facebook</p>
+                </div>
+                <div> <a href="https://www.instagram.com/pitufinesanimacion/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <p>pitufinesanimacion</p>
+                </div>
+
+                <div> <a href="mailto:pitufinesanimaciones@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    <p>pitufinesanimaciones@gmail.com</p>
+                </div>
+
+
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <p> +598 91 317 031</p>
+                </div>
+
+            </div>
+
+
+
+
+            <div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
